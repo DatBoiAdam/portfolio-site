@@ -1,6 +1,6 @@
 baseURL: "https://adamliggett.com"
 languageCode: "en-us"
-title: "Adam Liggett | Cyber Security Student"
+title: "Adam Liggett | Computer Science Student"
 theme: hugo-profile
 
 outputs:
@@ -59,7 +59,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Adam Liggett | Cyber Security Student"
+  title: "Adam Liggett | Computer Science Student"
   description: Adam's Personal Portfolio
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -136,7 +136,7 @@ params:
     intro: "Hi, my name is"
     title: "Adam."
     subtitle: "I'm motivated towards a career in technology."
-    content: "I am a sophomore at Mercyhurst University, Currently studying for a B.S. in Cyber Security."
+    content: "I am a sophomore at West Virginia University, currently studying for a B.S. in Computer Science."
     image: /images/hero.png
     bottomImage:
       enable: true
@@ -165,12 +165,13 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.png"
-    content: "I am a college student from Pittsburgh, PA. I am currently studying for a degree in cyber security, with plans of working in the IT industry after graduation."
+    content: "I am a college student from the greater Pittsburgh area. I am currently studying for a degree in computer science, with plans of working in the IT industry after graduation."
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "Python"
+        - "Java"
         - "Linux"
         - "Entra"
         - "Azure"
@@ -182,15 +183,15 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Student Ambassador"
-        company: "Mercyhurst University"
-        companyUrl: "https://mercyhurst.edu/admissions"
-        date: "Jan 2025 - present"
-        featuredLink:
-          enable: false
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working with the admissions department as a Student Ambassador, providing tours of campus to prospective students and their families. Additionally, we also work to staff many other events around campus."
+      - #job: "Student Ambassador"
+       # company: "Mercyhurst University"
+        #companyUrl: "https://mercyhurst.edu/admissions"
+        #date: "Jan 2025 - Dec 2025"
+        #featuredLink:
+          #enable: false
+          #name: "View the project"
+          #url: "https://example.com"
+        #content: "I am currently working with the admissions department as a Student Ambassador, providing tours of campus to prospective students and their families. Additionally, we also work to staff many other events around campus."
 
       - job: "Adventure Staff"
         company: "Pine Springs Camp"
@@ -222,17 +223,17 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Bachelor of Science in Cyber Security"
+      - title: "Bachelor of Science in Computer Science"
         school:
-          name: "Mercyhurst University"
-          url: "https://mercyhurst.edu"
+          name: "West Virginia University"
+          url: "https://www.wvu.edu"
         date: "2024 - 2028"
-        GPA: "3.62 out of 4.0"
+        GPA: "3.68 out of 4.0"
         content: |-
           Extracurricular Activities
-            - Sailing Club Secretary
-            - Mercyhurst Student Government Senator for the Class of 2028
-            - Ambassador Club Member
+            - **
+            - **
+            - **
         featuredLink:
           enable: false
           name: "My academic record"
@@ -254,6 +255,7 @@ params:
     items:
       - title: Eagle Scout
         content: I achieved the highest rank in scouting, Eagle Scout in 2024.
+        url: /files/Eagle Book Master.pdf
         image: /images/eagle.webp
       - title: Wilderness First Aid
         content: Completed 16 hour training on providing first aid and medical treatment in remote enviroments.
