@@ -183,16 +183,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - #job: "Student Ambassador"
-       # company: "Mercyhurst University"
-        #companyUrl: "https://mercyhurst.edu/admissions"
-        #date: "Jan 2025 - Dec 2025"
-        #featuredLink:
-          #enable: false
-          #name: "View the project"
-          #url: "https://example.com"
-        #content: "I am currently working with the admissions department as a Student Ambassador, providing tours of campus to prospective students and their families. Additionally, we also work to staff many other events around campus."
-
       - job: "Adventure Staff"
         company: "Pine Springs Camp"
         companyUrl: "https://pinesprings.org"
@@ -255,7 +245,7 @@ params:
     items:
       - title: Eagle Scout
         content: I achieved the highest rank in scouting, Eagle Scout in 2024.
-        url: /files/Eagle Book Master.pdf
+        url: /images/Eagle Book Master 2.pdf
         image: /images/eagle.webp
       - title: Wilderness First Aid
         content: Completed 16 hour training on providing first aid and medical treatment in remote enviroments.
