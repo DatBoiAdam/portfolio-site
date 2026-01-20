@@ -219,11 +219,7 @@ params:
           url: "https://www.wvu.edu"
         date: "2024 - 2028"
         GPA: "3.68 out of 4.0"
-        content: |-
-          Extracurricular Activities
-            - **
-            - **
-            - **
+
         featuredLink:
           enable: false
           name: "My academic record"
@@ -234,6 +230,11 @@ params:
           url: "https://deerlakes.net"
         date: "2020 - 2024"
         GPA: "3.6 out of 4.0"
+        content: |-
+          Extracurricular Activities
+            - BotsIQ- 4th place overall
+            - Varsity Swim Team Captain
+            - T.V. Production Independent Study
         featuredLink:
           enable: false
           url: "https://example.com"
