@@ -113,7 +113,7 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    brandLogo: "/fav.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "images/fav.png" # Logo for the brand | default is the favicon variable
     showBrandLogo: true # Show brand logo in nav bar | default is true
     brandName: "Adam Liggett" # Brand name for the brand | default is the title variable
     disableSearch: true
