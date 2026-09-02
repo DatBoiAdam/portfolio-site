@@ -186,17 +186,17 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Adventure Staff"
+      - job: "Adventure Coordinator"
         company: "Pine Springs Camp"
         companyUrl: "https://pinesprings.org"
-        date: "May 2023 - August 2025"
+        date: "May 2023 - August 2026"
         featuredLink:
           enable: false
           url: "https://example.com"
         info:
           enable: true
-          content: I worked at Pine Springs for 3 separtate summer seasons. Previously, I served as kitchen staff and then as a counselor.
-        content: "As part of Adventure Staff, I specialized in facilitating adventure activities including team building, the high ropes course, climbing tower, and more, while maintaining a safe work enviroment and the safety of participants. I was also responsible for maintainance of trails around the property."
+          content: I worked at Pine Springs for 4 separtate summer seasons. Previously, I served as kitchen staff, a counselor, and adventure staff.
+        content: "As the Adventure Coordinator, I lead a small team which specialized in facilitating adventure activities including team building, the high ropes course, climbing tower, and more, while maintaining a safe work enviroment and the safety of participants. I was also responsible for maintainance of trails around the property."
 
       - job: "Administrative Assistant"
         company: "Bosak Eyecare and Optical"
@@ -220,24 +220,21 @@ params:
         school:
           name: "West Virginia University"
           url: "https://www.wvu.edu"
-        date: "2024 - 2028"
+        date: "2026 - 2028"
         GPA: "3.68 out of 4.0"
 
         featuredLink:
           enable: false
           name: "My academic record"
           url: "https://example.com"
-      - title: "High School"
+      - title: "General Studies"
         school:
-          name: "Deer Lakes High School"
-          url: "https://deerlakes.net"
-        date: "2020 - 2024"
+          name: "Mercyhurst Univeristy"
+          url: "https://mercyhurst.edu"
+        date: "2024 - 2025"
         GPA: "3.6 out of 4.0"
         content: |-
-          Extracurricular Activities
-            - BotsIQ- 4th place overall
-            - Varsity Swim Team Captain
-            - T.V. Production Independent Study
+          Prior to attending WVU, I spent 3 semesters at Mercyhurst Univeristy before tranferring.
         featuredLink:
           enable: false
           url: "https://example.com"
