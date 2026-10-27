@@ -29,17 +29,17 @@ markup:
       unsafe: true
 
 Menus:
-  #main:
-    #- identifier: blog
-    #  name: Blog
-    #  title: Blog posts
-    #  url: /blogs
-    #  weight: 1
-    #- identifier: gallery
-    #  name: Gallery
-    #  title: Blog posts
-    #  url: /gallery
-    #  weight: 2
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -136,7 +136,7 @@ params:
     intro: "Hi, my name is"
     title: "Adam."
     subtitle: "I'm motivated towards a career in technology."
-    content: "I am a sophomore at West Virginia University, currently studying for a B.S. in Computer Science."
+    content: "I am a Junior at West Virginia University, currently studying for a B.S. in Computer Science."
     image: /images/hero.png
     bottomImage:
       enable: true
@@ -337,7 +337,7 @@ params:
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
       enable: true
       content: "min read"
