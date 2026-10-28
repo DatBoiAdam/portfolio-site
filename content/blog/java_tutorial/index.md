@@ -12,6 +12,9 @@ This tutorial will describe how to set up a basic, functional Java Developer env
 2. Download the Adoptium Temurin Java package [**here**](https://adoptium.net/). It should autodetect your system to provide you the correct file. On windows you will want the ".msi" version. This is an open source (free) version of the Java binary. The Java binary is what our code will interact with.
 3. Now that you have both programs downloaded, lets run the eclipse installer. Navigate to your downloads folder and open the program.
 4. Select "Eclipse IDE for Java Developers" (it should be the first option), then click "Install". This process may take a few minutes.
+
+<img src="ss1.png" alt="Screenshot showing the option that the user should select" width="200"/>
+
 5. Another screen may pop up, asking you to verify the signers. This just means they want you to verify that the software came from a reliable source for security reasons. Hit "Select All" and then "Trust Selected".
 6. Hit "Launch". This should now open our newly installed software.
 
@@ -19,6 +22,9 @@ This tutorial will describe how to set up a basic, functional Java Developer env
 7. Now that we have Eclipse installed, lets continue with our setup. Firstly, it will ask you what workspace you want to use. This is the location where your new projects and their code will be stored. I recommend using the default location and selecting the option to "Use this as the default and do not ask again". This will mean that every time you open eclipse it will automatically launch into this folder rather than prompting you.
 8. If you've previously used eclipse, it may ask about updating your workspace. Just select "Continue".
 9. After Eclipse opens, it may ask about being excluded from Windows Defender. By default, Windows Defender (the preinstlalled antivirus on all Windows Computers) will scan the files in your eclipse project for potential vulnerabilities every time you open it. This will result in slower load times and potential false positives (where your work is deleted), but it will maintian a more secure environment. I recommend selecting "Exclude Eclipse IDE", then hitting "Proceed".
+
+<img src="ss2.png" alt="Screenshot showing the option that the user should select" width="500"/>
+
 10. At the "User Account Control" pop up, select "Yes". This will allow it to run the script that disables Windows Defender from scanning these files. The rest of your computer will still be protected, just not the files in the Eclipse Workspace Folder you selected earlier.
 
 ### Installing a JDK
@@ -36,6 +42,9 @@ This tutorial will describe how to set up a basic, functional Java Developer env
 18. At the top of your screen, select "Window" and then "Preferences".
 19. On the left side of the screen, click the arrow next to "Java", then select "Installed JREs".
 20. Make sure there is a checkmark next to "Detect available JVM Installations at startup" and at least one of the JRE files below. It should look something like this.
+
+<img src="ss3.png" alt="Screenshot showing the option that the user should select" width="600"/>
+
 21. To save our changes, select "Apply" and then "Apply and Close".
 
 ### Making your First Project
@@ -44,6 +53,9 @@ This tutorial will describe how to set up a basic, functional Java Developer env
 23. Select "Java" then "Java Project" and hit "Next".
 24. Give the project a name like "Test Project". Leave all the options as default and then hit "Finish".
 25. Next we will create a class file. This is where the actual code is stored. Follow the same process as above, but select "Class" instead of "Java Project". You can give it any name, but for a single file project we typically use "main". Also select the option to create a "public static void main" method stub.
+
+<img src="ss4.png" alt="Screenshot showing the option that the user should select" width="400"/>
+
 26. Congraduations! We now have our first environment ready to create some code. Add the below code into your class, between the curly braces ({}) after the public static void main method.
 ```
 system.out.print("Hello World");
